@@ -23,6 +23,10 @@ main > div div{
     width: 40%;
 }
 
+main > div:nth-child(2){
+    flex-direction: row-reverse;
+}
+
 img{
     max-width: 100%;
     height: auto;
@@ -41,5 +45,8 @@ footer{
     main > div {
         flex-direction: column;
         align-items: center;
+    }
+    main > div:nth-child(2){
+        flex-direction: column;
     }
 }
